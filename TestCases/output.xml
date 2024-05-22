@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-05-16T17:57:39.210141" rpa="false" schemaversion="5">
+<suite id="s1" name="productpageTest" source="E:\EXPLEO\robotframework\test\pageobjectmodelproject\TestCases\productpageTest.robot">
+<test id="s1-t1" name="To validate the product selection" line="11">
+<kw name="Open a browser with url" owner="genericResource" type="SETUP">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2024-05-16T17:57:39.539402" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<arg>${browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2024-05-16T17:57:39.539402" elapsed="7.528617"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-05-16T17:57:47.068019" level="INFO">Opening url 'https://www.demoblaze.com/index.html'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-05-16T17:57:47.068019" elapsed="1.426870"/>
+</kw>
+<status status="PASS" start="2024-05-16T17:57:39.539402" elapsed="8.955487"/>
+</kw>
+<kw name="go to the browser with url">
+<kw name="Open a browser with url" owner="genericResource">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2024-05-16T17:57:48.497489" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<arg>${browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2024-05-16T17:57:48.497489" elapsed="7.436626"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-05-16T17:57:55.934115" level="INFO">Opening url 'https://www.demoblaze.com/index.html'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-05-16T17:57:55.934115" elapsed="2.040618"/>
+</kw>
+<status status="PASS" start="2024-05-16T17:57:48.497489" elapsed="9.477244"/>
+</kw>
+<status status="PASS" start="2024-05-16T17:57:48.494889" elapsed="9.479844"/>
+</kw>
+<kw name="verify the page contains product details">
+<kw name="productpageResource.To verify navigates in product page">
+<msg time="2024-05-16T17:57:57.977240" level="FAIL">No keyword with name 'productpageResource.To verify navigates in product page' found.</msg>
+<status status="FAIL" start="2024-05-16T17:57:57.977240" elapsed="0.000000">No keyword with name 'productpageResource.To verify navigates in product page' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-16T17:57:57.977240" elapsed="0.000000">No keyword with name 'productpageResource.To verify navigates in product page' found.</status>
+</kw>
+<kw name="select product and add to cart the product">
+<status status="NOT RUN" start="2024-05-16T17:57:57.977240" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-05-16T17:57:57.977240" elapsed="3.230098"/>
+</kw>
+<status status="FAIL" start="2024-05-16T17:57:39.539402" elapsed="21.667936">No keyword with name 'productpageResource.To verify navigates in product page' found.</status>
+</test>
+<doc>To validate product page</doc>
+<status status="FAIL" start="2024-05-16T17:57:39.225767" elapsed="21.981571"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="productpageTest">productpageTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
